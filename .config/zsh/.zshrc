@@ -6,6 +6,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 
+# export GIT_CONFIG="$HOME/.config/git/.gitconfig"
+
 export _Z_DATA="$XDG_DATA_HOME/z"
 
 autoload -Uz compinit
