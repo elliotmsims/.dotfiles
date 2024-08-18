@@ -1,6 +1,6 @@
 # Arch Linux dotfiles managed by GNU Stow
 
-Theme: Catpuccin Frappe Theme
+Theme: Catpuccin Frappe Theme (Mauve accent)
 
 Font: JetBrains Mono
 
