@@ -1,5 +1,8 @@
 # Arch Linux dotfiles managed by GNU Stow
-## (Catpuccin Frappe Theme and JetBrains Mono Font)
+
+Theme: Catpuccin Frappe Theme
+
+Font: JetBrains Mono
 
 remove symlinks
 ```
