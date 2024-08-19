@@ -63,6 +63,8 @@ dolphin                                                # kde file manager
 vim                                                    # terminal text editor
 code                                                   # ide text editor
 vlc                                                    # media player
+spotify                                                # music
+spicetify                                              # spotify theme
 
 # --------------------------------------------------- // Shell
 # eza|zsh                                              # ls replacement for zsh

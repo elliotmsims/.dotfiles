@@ -1,23 +1,18 @@
 export ZSH_VERSION=5.9
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
-
 # export GIT_CONFIG="$HOME/.config/git/.gitconfig"
-
 export _Z_DATA="$XDG_DATA_HOME/z"
-
 autoload -Uz compinit
 compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 # _comp_options+=(globdots)
 setopt globdots
-
 export HISTFILE="$XDG_STATE_HOME"/zsh/zsh_history
-
 export ZSH="$XDG_DATA_HOME/oh-my-zsh"
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -125,7 +120,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+alias wget="wget --hsts-file="$XDG_DATA_HOME/wget-hsts""
+alias tree="cbonsai -S -t 0.5 -L 100"
 
 
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.zsh ] && source "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.zsh
