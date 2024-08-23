@@ -26,3 +26,4 @@ stow .
 6. missing packages (nwg-look, swaylock, discord, fastfetch, waybar ML4W yt, etc.)
 7. delete unusued packages (wofi)
 8. look into neovim (lazyvim, yazi, telescope, fzf preview bat)
+9. fonts (nerd fonts, gucharmap)

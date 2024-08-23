@@ -122,6 +122,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias wget="wget --hsts-file="$XDG_DATA_HOME/wget-hsts""
 alias tree="cbonsai -S -t 0.5 -L 100"
+alias fastfetchall="fastfetch -c all.jsonc"
+alias ff="fastfetch -c $HOME/.config/fastfetch/config.jsonc"
 
 
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.zsh ] && source "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.zsh
